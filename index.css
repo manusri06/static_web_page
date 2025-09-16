@@ -1,0 +1,153 @@
+body{
+    margin: auto;
+}
+
+header{
+    background-color: rgb(166, 157, 223);
+    min-height: 70px;
+    display: flex;
+    border-bottom: 4px rgb(57, 113, 147) solid;
+}
+
+li{
+    display: inline;
+    padding-left: 30px;
+}
+
+nav{
+    padding-top: 11px;
+    padding-left: 550px;
+}
+header h2{
+    padding-left: 50px;
+    padding-top: 20px;
+    color: aliceblue;
+}
+.cl,.c2{
+    color:rgb(5, 56, 87);
+}
+
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    font-size: 14px;
+    
+}
+a:hover{
+    color: black;
+    transform:scale(10);
+}
+a:active{
+    color:rgb(17, 243, 25);
+}
+
+header.A,p,h2{
+    padding: 0;
+    margin: 0;
+}
+
+/*second part*/
+.A{
+    background-image: url("image.png");
+    min-height: 270px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.A1,p,h2{
+    padding-left: 15%;
+
+}
+.A1 h2{
+    color: rgb(99, 102, 105);
+    font-size: 40px;
+    padding-top: 40px;
+}
+.A1 p{
+    padding-top: 30px;
+    width: 55%;
+    text-align: center;
+    color: rgb(90, 107, 113);
+
+}
+
+/* third part*/
+
+.B{
+    min-height: 70px;
+    display: flex;
+    background-color: rgb(166, 157, 223);
+}
+.B2{
+    padding-left: 600px;
+    padding-top: 25px;
+}
+.B1{
+    padding-left: 50px;
+    color: aliceblue;
+    font-size: 20px;
+}
+#button{
+    background-color:rgb(5, 56, 87) ;
+    color: aliceblue;
+    padding: 6px;
+    border: 0;
+    border-radius: 3px;
+}
+#label{
+    padding: 6px;
+    border: 0;
+    border-radius: 3px;
+}
+
+/*fourth part*/
+.C{
+    display: flex;
+    min-height: 70px;
+}
+
+.C img{
+    margin-right:250px;
+}
+
+
+.C1 img{
+    width: 290px; 
+    padding-top: 20px;
+}
+.C2 img{
+    width:170px ;
+    padding-top:10px;
+}
+.C3 img{
+    width:170px;
+    padding-top:1px;
+}
+
+.D{
+    display: flex;
+    text-align: center;
+}
+.D h5{ 
+    font-size: 15px;
+}
+.D1 h5{
+    padding-right:100px;
+}
+.D p{
+    padding-right: 100px;
+}
+
+footer{
+    background-color: rgb(166, 157, 223);
+    padding: 10px;
+    text-align: center;
+    padding-right:80px;
+    border-bottom:4px rgb(57, 113, 147) solid ;
+    color: aliceblue;
+    font-weight: bold;
+}
